@@ -1,0 +1,21 @@
+//
+//  DynamicPopUp-Prefix.pch
+//  DynamicPopUp
+//
+//  Created by iPatel on 12/29/16.
+//  Copyright © 2016 iPatel. All rights reserved.
+//
+
+#ifndef DynamicPopUp_Prefix_pch
+#define DynamicPopUp_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DynamicPopUp_Prefix_pch */
+
+
+#ifdef __OBJC__
+#import "defines.h"
+#import "GeneralClass.h"
+#endif
